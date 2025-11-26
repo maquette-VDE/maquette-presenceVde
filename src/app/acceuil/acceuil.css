@@ -8,9 +8,7 @@
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    
+    align-items: center;   
 }
 
 .cercle {
@@ -18,7 +16,6 @@
     height: 80%;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
-    overflow: hidden;
     position: relative;
 }
 
@@ -26,7 +23,66 @@
     width: 134px;
     height: 158px;
     position: relative;
-    top: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    mix-blend-mode : darken   
+}
+.choix-container {
+    position: absolute;
+    top: 55%;                         
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
+.choix {
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.consultant{
+    color: #C94B91
+}
+.expert{
+    color: #57E4EB;
+}
+.button1{
+    background-color: #C94B91;
+    Width :160px;
+    Height:38px;
+    Top :631px;
+    Left :514px;
+    border-radius: 2em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+.button2{
+    background-color: #F19937;
+    Width :160px;
+    Height:38px;
+    Top :631px;
+    Left :514px;
+    border-radius: 2em;
+    color: #fff;
+}
+.button3{
+    background-color: #57E4EB;
+    Width :160px;
+    Height:38px;
+    Top :631px;
+    Left :514px;
+    border-radius: 2em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+.button4{
+    background-color: #6BB346;
+    Width :160px;
+    Height:38px;
+    Top :631px;
+    Left :514px;
+    border-radius: 2em;
+    color: #fff;
+
+}
+
