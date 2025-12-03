@@ -14,4 +14,12 @@ export class CreateExpert {
   suivant(){
     this.router.navigateByUrl('confirme-expert')
   }
+
+  toExpert(){
+    this.router.navigateByUrl('/create-expert')
+  }
+
+  toConsultant(){
+    this.router.navigateByUrl('/create-consultant')
+  }
 }
