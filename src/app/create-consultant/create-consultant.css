@@ -1,18 +1,18 @@
 .fond-ecran{
     background-color: #54545440;
-    background-size: cover;
-    height: 100vh;   
-    width: 100vw;
+    min-height: 100vh;   
+    width: 100%;
     display: flex;
     justify-content: center;  
     align-items: center;
 }
 
 .connexion{
-    width: 625px;
-    height: 680px;
+    width: auto;
+    height: auto;
     border-radius: 30px ;
     background-color: #F5F5F5;
+    position: relative;
 }
 
 .connexion h4{

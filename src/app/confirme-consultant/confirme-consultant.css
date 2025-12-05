@@ -1,8 +1,8 @@
 .fond-ecran{
     background-color: #54545440;
     background-size: cover;
-    height: 100vh;   
-    width: 100vw;
+    min-height: 100vh;   
+    width: 100%;
     display: flex;
     justify-content: center;  
     align-items: center;
